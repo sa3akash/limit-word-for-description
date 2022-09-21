@@ -1,0 +1,5 @@
+<p>
+  {item.description.length > 250 ?
+    `${item.description.substring(0, 250)}...` : item.description
+  }
+</p>
